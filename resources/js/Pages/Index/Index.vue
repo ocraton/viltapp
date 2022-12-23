@@ -2,7 +2,8 @@
     <div>INDEX</div>
     <div>
         The message is
-        <span style="color: green">{{ messageFrom }}</span>
+        <br>
+        <span class="text-green-600">{{ messageFrom }}</span>
     </div>
 </template>
 
