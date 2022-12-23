@@ -23,6 +23,12 @@ const submit = () => {
 };
 </script>
 
+<script>
+export default {
+    layout: ''
+}
+</script>
+
 <template>
     <Head title="Register" />
 

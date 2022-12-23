@@ -12,7 +12,11 @@ defineProps({
     sessions: Array,
 });
 </script>
-
+<script>
+export default {
+    layout: ''
+}
+</script>
 <template>
     <AppLayout title="Profile">
         <template #header>
@@ -36,9 +40,9 @@ defineProps({
                 </div>
 
                 <div v-if="$page.props.jetstream.canManageTwoFactorAuthentication">
-                    <TwoFactorAuthenticationForm 
+                    <TwoFactorAuthenticationForm
                         :requires-confirmation="confirmsTwoFactorAuthentication"
-                        class="mt-10 sm:mt-0" 
+                        class="mt-10 sm:mt-0"
                     />
 
                     <SectionBorder />

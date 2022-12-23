@@ -2,7 +2,11 @@
 import AppLayout from '@/Layouts/AppLayout.vue';
 import Welcome from '@/Components/Welcome.vue';
 </script>
-
+<script>
+export default {
+    layout: ''
+}
+</script>
 <template>
     <AppLayout title="Dashboard">
         <template #header>

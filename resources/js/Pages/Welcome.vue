@@ -9,6 +9,12 @@ defineProps({
 });
 </script>
 
+<script>
+export default {
+    layout: ''
+}
+</script>
+
 <template>
     <Head title="Welcome" />
 

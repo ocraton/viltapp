@@ -18,7 +18,6 @@ createInertiaApp({
         );
         page.then((module) => {
             module.default.layout ??= MainLayout;
-            console.log(module)
         });
         return page;
     },
